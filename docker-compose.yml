@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  minibanking.api:
+    image: ${DOCKER_REGISTRY-}minibanking
+    build:
+      context: .
+      dockerfile: MiniBanking/MiniBanking.API/Dockerfile
+  
+  minibankdb:
+    image: mysql
+    
+    
+volumes:
+  mysql_data:

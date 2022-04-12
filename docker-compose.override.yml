@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  minibanking.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - "ConnectionString=Server=minibankdb;Database=Minibank;User Id=root;Password=dahPRINCE@13"  
+    env_file:
+      - MiniBanking/varible.env
+
+    ports:
+      - "80:80"
+      - "443"
+    volumes:
+      - ~/.aspnet/https:/root/.aspnet/https:ro
+      - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+        
+        
+  minibankdb:
+    container_name: minibankdb
+    environment:
+      MYSQL_ROOT_PASSWORD: dahPRINCE@13
+      MYSQL_USER: newuser
+      MYSQL_PASSWORD: dahPRINCE@13
+      MYSQL_DATABASE: Minibank
+#    restart: always
+    ports:
+        - "3307:3306"
+    volumes:
+        - mysql_data:/var/lib/mysql/

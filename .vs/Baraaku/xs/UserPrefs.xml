@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{824056A8-8845-41B7-B491-8493C368C1F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
+    <Files>
+      <File FileName="MiniBanking/MiniBanking.API/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="1" Column="1" />
+      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Baraaku" expanded="True">
+            <Node name="MiniBanking" expanded="True">
+              <Node name="MiniBanking.API" expanded="True" />
+            </Node>
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True">
+                <Node name="docker-compose.override.yml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MiniBanking.MiniBanking.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

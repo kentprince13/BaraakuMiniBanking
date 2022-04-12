@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiniBanking", "MiniBanking", "{EC45ED58-0E25-42F5-AC98-A78A667E2AAE}"
+	ProjectSection(SolutionItems) = preProject
+		MiniBanking\varible.env = MiniBanking\varible.env
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBanking.API", "MiniBanking\MiniBanking.API\MiniBanking.API.csproj", "{267E658A-372E-45B6-A113-47451B402C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBanking.Domain", "MiniBanking\MiniBanking.Domain\MiniBanking.Domain.csproj", "{4B320CB8-4400-4703-819F-64BCD4780A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBanking.Infrastructure", "MiniBanking\MiniBanking.Infrastructure\MiniBanking.Infrastructure.csproj", "{2964090E-48B6-47AB-A454-9D6AA3BD447E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBanking.Core", "MiniBanking\MiniBanking.Core\MiniBanking.Core.csproj", "{3EF5FA10-4D1E-4D05-B2FE-4DBEA723905D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{824056A8-8845-41B7-B491-8493C368C1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{267E658A-372E-45B6-A113-47451B402C60} = {EC45ED58-0E25-42F5-AC98-A78A667E2AAE}
+		{4B320CB8-4400-4703-819F-64BCD4780A2B} = {EC45ED58-0E25-42F5-AC98-A78A667E2AAE}
+		{2964090E-48B6-47AB-A454-9D6AA3BD447E} = {EC45ED58-0E25-42F5-AC98-A78A667E2AAE}
+		{3EF5FA10-4D1E-4D05-B2FE-4DBEA723905D} = {EC45ED58-0E25-42F5-AC98-A78A667E2AAE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267E658A-372E-45B6-A113-47451B402C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267E658A-372E-45B6-A113-47451B402C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267E658A-372E-45B6-A113-47451B402C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267E658A-372E-45B6-A113-47451B402C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B320CB8-4400-4703-819F-64BCD4780A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B320CB8-4400-4703-819F-64BCD4780A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B320CB8-4400-4703-819F-64BCD4780A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B320CB8-4400-4703-819F-64BCD4780A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2964090E-48B6-47AB-A454-9D6AA3BD447E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2964090E-48B6-47AB-A454-9D6AA3BD447E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2964090E-48B6-47AB-A454-9D6AA3BD447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2964090E-48B6-47AB-A454-9D6AA3BD447E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF5FA10-4D1E-4D05-B2FE-4DBEA723905D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF5FA10-4D1E-4D05-B2FE-4DBEA723905D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF5FA10-4D1E-4D05-B2FE-4DBEA723905D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF5FA10-4D1E-4D05-B2FE-4DBEA723905D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824056A8-8845-41B7-B491-8493C368C1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824056A8-8845-41B7-B491-8493C368C1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824056A8-8845-41B7-B491-8493C368C1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824056A8-8845-41B7-B491-8493C368C1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
