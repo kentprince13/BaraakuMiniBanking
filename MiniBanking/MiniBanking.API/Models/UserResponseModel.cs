@@ -11,3 +11,10 @@ public class UserResponseModel:BaseModel
     public string Image { get; set; }
     public string IsActive { get; set; }
 }
+
+public class AccountResponse : BaseModel
+{
+    public string Name { get; set; }
+    public decimal AvailableBalance { get; set; }
+    public decimal LedgerBalance { get; set; }
+}

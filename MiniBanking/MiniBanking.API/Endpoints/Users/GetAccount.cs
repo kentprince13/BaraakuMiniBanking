@@ -2,14 +2,10 @@ using Ardalis.ApiEndpoints;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using MiniBanking.API.Application.Validations;
-using MiniBanking.API.Exception;
 using MiniBanking.API.Models;
 using MiniBanking.Core.Configuration;
 using MiniBanking.Core.Services;
-using MiniBanking.Domain.Entities;
 using MiniBanking.Domain.Exception;
-using MiniBanking.Domain.Utilities;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace MiniBanking.API.Endpoints.Users;

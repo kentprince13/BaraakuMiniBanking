@@ -13,5 +13,6 @@ public class Mapper : Profile
         CreateMap<User, UserResponseModel>().ReverseMap();
         CreateMap<PayStackResponseModel, TransferResponse>().ReverseMap();
         CreateMap<PayStackRequestModel, FundTransferRequest>().ReverseMap();
+        CreateMap<Account, AccountResponse>().ReverseMap();
     }
 }
