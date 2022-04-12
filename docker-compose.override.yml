@@ -5,7 +5,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
-      - "ConnectionString=Server=minibankdb;Database=Minibank;User Id=root;Password=dahPRINCE@13"  
+      - "ConnectionString=Server=minibankdb;Database=Minibank;User Id=root;Password=password"  
     env_file:
       - MiniBanking/varible.env
 
@@ -22,9 +22,9 @@ services:
   minibankdb:
     container_name: minibankdb
     environment:
-      MYSQL_ROOT_PASSWORD: dahPRINCE@13
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_USER: newuser
-      MYSQL_PASSWORD: dahPRINCE@13
+      MYSQL_PASSWORD: password
       MYSQL_DATABASE: Minibank
 #    restart: always
     ports:
